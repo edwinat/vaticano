@@ -1,0 +1,248 @@
+header {
+  width: 100%;
+  position: fixed;
+  top: -20px;
+  left: 0px;
+}
+
+div{
+    width: 100%;
+    
+}
+h1{
+    padding-top: 22%;
+    text-align: center;
+}
+h2{
+    padding-top: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid rgb(17, 2, 2);
+    background: rgb(247, 240, 239);
+    width: 30%;
+    position:absolute;
+    left: 35%;
+    padding-bottom: 15px; 
+}
+p{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+p.bottom{
+    position: absolute;
+    bottom: 70px;
+    right: 45%;
+}
+p.alinacion{
+    text-align: justify;
+    word-spacing: 5px;
+}
+
+div.menu{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background: rgb(240, 210, 171);
+    font-size: 18px;
+    position: fixed;
+    z-index: 100;   
+}
+div.bloques1{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(https://i.ytimg.com/vi/UIfPTEtfpr4/maxresdefault.jpg);
+    height: 750px;
+    top: 100px;
+}
+
+div.bloques2{
+    
+    height: 750px;
+    position: relative;
+    top: -40px;
+    left: -10px;;
+    right: 0px;
+    background-blend-mode:none;
+    background: rgb(228, 131, 131);
+    z-index: 50;
+}
+div.cuadrado{
+    width: 20%;
+    height: 160px;
+    left: 25px;
+    top: 175px;
+    background: rgb(228, 228, 207);
+    position: absolute;
+    border: 5px solid rgb(17, 2, 2);
+    border-radius: 10px;
+
+}
+div.cuadrado1{
+    width: 20%;
+    left: 28%;
+    height: 170px;
+    top: 175px;
+    background: rgb(228, 228, 207);
+    position: absolute;
+    border: 5px solid rgb(17, 2, 2);
+    border-radius: 10px;
+}
+div.cuadrado2{
+    width: 20%;
+    right: 28%;
+    height: 170px;
+    top: 175px;
+    background: rgb(228, 228, 207);
+    position: absolute;
+    border: 5px solid rgb(17, 2, 2);
+    border-radius: 10px;
+}div.cuadrado3{
+    width: 20%;
+    right:25px;
+    height: 170px;
+    top: 175px;
+    background: rgb(228, 228, 207);
+    position: absolute;
+    border: 5px solid rgb(17, 2, 2);
+    border-radius: 10px;
+}div.cuadrado4{
+    width: 20%;
+    left:25px;
+    height: 170px;
+    bottom: 175px;
+    background: rgb(228, 228, 207);
+    position: absolute;
+    border: 5px solid rgb(17, 2, 2);
+    border-radius: 10px;
+}
+div.cuadrado5{
+    width: 20%;
+    left:28%;
+    height: 170px;
+    bottom: 175px;
+    background: rgb(228, 228, 207);
+    position: absolute;
+    border: 5px solid rgb(17, 2, 2);
+    border-radius: 10px;
+}
+div.cuadrado6{
+    width: 20%;
+    right:28%;
+    height: 170px;
+    bottom: 175px;
+    background: rgb(228, 228, 207);
+    position: absolute;
+    border: 5px solid rgb(17, 2, 2);
+    border-radius: 10px;
+}
+div.cuadrado7{
+    width: 20%;
+    right:25px;
+    height: 170px;
+    bottom: 175px;
+    background: rgb(228, 228, 207);
+    position: absolute;
+    border: 5px solid rgb(17, 2, 2);
+    border-radius: 10px;
+}
+
+#fondo{
+    background: rgb(94, 146, 135);
+}
+#fondo1{
+    background: rgb(108, 138, 120);
+}
+
+div.bloques3{
+    background: rgb(128, 179, 35);
+    position: relative;
+    height: 750px;
+    top: -60px;
+    left: -10px;;
+    right: 0px;
+    background-blend-mode:none;
+}
+div.bloques4{
+    background: rgb(175, 87, 14);
+    position: relative;
+    height: 750px;
+    top: -60px;
+    left: -10px;;
+    right: 0px;
+    background-blend-mode:none;
+}
+
+div.rectangulo1{
+    width: 35%;
+    height: 500px;
+    left: 10%;
+    bottom: 110px;
+    background: rgb(42, 82, 129);
+    position: absolute;
+    
+    border: 5px solid rgb(17, 2, 2);
+    border-radius: 10px;
+}
+div.rectangulo2{
+    width: 35%;
+    height: 500px;
+    right:10%;
+    bottom: 110px;
+    background: rgb(42, 82, 129);
+    position: absolute;
+    border: 5px solid rgb(17, 2, 2);
+    border-radius: 10px;
+}
+
+
+
+div.bloques5{
+    background: rgb(52, 9, 131);
+    position: relative;
+    height: 750px;
+    top: -60px;
+    left: -10px;;
+    right: 0px;
+    background-blend-mode:none;
+}
+
+
+
+
+
+div.bloques6{
+    background: rgb(28, 32, 21);
+    position: relative;
+    height: 80px;
+    top: -80px;
+    left: -10px;;
+    right: 0px;
+    background-blend-mode:none;
+    text-decoration-color: whitesmoke;
+    text-align: center;  
+}
+
+
+li{
+    margin: 1em;
+    display: inline-block;
+
+}
+
+a{
+    text-decoration: none;
+}
+a.link{
+    text-decoration: underline;
+    color: rgb(45, 10, 170);
+}
+a.white{
+    color: white;
+    font-family: cursive;
+}
+img{
+    position: absolute;
+    width: 700px;
+    height: 500px;;
+    top: 150px;
+    left: 25%;
+}
